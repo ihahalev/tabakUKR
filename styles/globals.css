@@ -1,82 +1,98 @@
-html{
+html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #333333;
-  background-color: #212121;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
   margin: 0px;
   padding: 0px;
-  line-height: 1.2;
+  line-height: 1.25;
   font-weight: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
   /* object-fit: none; */
 }
 
-.container{
+.container {
   width: 375px;
   margin: 0 auto;
   padding: 0px;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:contain;
-  height: 400px;
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.intro h2 {
-  margin: 0 auto;
-  font-size: 96px;
-  line-height: 116px;
-  text-align: center;
-  color: #FFFAF6;
-  text-transform: uppercase;
+.link {
+  display: block;
+  text-decoration: none;
 }
 
-.home {
-  background-image: url(../public/img/home_intro.png);
-  background-position: left;
+.svg {
+  display: none;
 }
 
-.home p {
-  margin: 0 auto;
-  font-size: 20px;
-  /* line-height: 150%; */
+.button {
+  border: none;
+  margin: 0px;
+  cursor: pointer;
+  width: 244px;
+  height: 50px;
+  border: 3px solid var(--main-theme);
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: transparent;
+  color: var(--main-text-color);
+}
+
+.button:hover {
+  background-color: var(--main-theme);
+}
+
+.logo {
+  font-family: 'TrixiePro';
+  font-size: 16px;
+  font-weight: 550;
+  color: var(--main-theme);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--sec-text-color);
 }
 
 .visualy-hidden:not(:focus):not(:active),
-input[type="checkbox"].visualy-hidden,
-input[type="radio"].visualy-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+input[type='checkbox'].visualy-hidden,
+input[type='radio'].visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
 }

@@ -1,0 +1,50 @@
+.section h3 {
+  font-family: 'Misto';
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.item-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.item-icon {
+  display: block;
+  margin: auto;
+  width: 110px;
+  height: 110px;
+  margin-bottom: 20px;
+  /* fill: var(--main-theme); */
+}
+
+/* .inner-fill {
+  fill: var(--main-theme);
+}
+
+.inner-fill-bg {
+  fill: var(--main-bg-color);
+}
+
+path.inner-stroke {
+  stroke: var(--main-theme);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 10px;
+  stroke-width: 1.3061px;
+  fill: var(--main-bg-color);
+}
+
+.inner-stroke-bg {
+  stroke: var(--main-bg-color);
+} */
+
+.section .text {
+  text-align: center;
+}

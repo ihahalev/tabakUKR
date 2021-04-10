@@ -1,11 +1,14 @@
-// import styles from '../styles/Home.module.css'
 import Intro from '../components/Intro'
+import Advantage from '../components/Advantage'
 import MainLayout from '../components/MailLayout'
 
-export default function Home() {
+const Home: React.FC = function () {
   return (
     <MainLayout>
-    <Intro></Intro>
+      <Intro></Intro>
+      <Advantage></Advantage>
     </MainLayout>
   )
 }
+
+export default Home

@@ -3,7 +3,7 @@ interface IIntro {
 }
 
 const Intro: React.FC<IIntro> = function ({children, type = 'home'}) {
-  const classes = ['container','intro', type]
+  const classes = ['container','intro', type];
   return (
     <section className={classes.join(' ')}>
       <h2 className="title">табак</h2>

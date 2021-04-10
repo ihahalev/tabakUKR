@@ -1,0 +1,32 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 452px;
+  margin-bottom: 54px;
+}
+
+.intro h2 {
+  margin: 0 auto;
+  font-size: 96px;
+  line-height: 116px;
+  text-align: center;
+  color: var(--main-text-color);
+  text-transform: uppercase;
+}
+
+.home {
+  background-image: url(../public/img/home_intro.png);
+  background-position: left;
+}
+
+.home p {
+  color: var(--sec-text-color);
+  margin: 0 auto;
+  font-size: 20px;
+  /* line-height: 150%; */
+}

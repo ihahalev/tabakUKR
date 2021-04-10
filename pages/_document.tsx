@@ -23,12 +23,7 @@ class MyDocument extends Document {
           <link href="https://xn--80aac1bxb.xn--j1amh/wp-content/uploads/2018/11/quote-1.png" rel="icon"/>
 	        <link href="https://xn--80aac1bxb.xn--j1amh/" rel="canonical"/>
           <meta property="og:type" content="business.business"/>
-          {/* <base href="https://tabakka.com.ua/"/> */}
-{/* <meta property="og:image" content="https://tabakka.com.ua/image/catalog/mirtabaka.png"/> */}
-{/* <meta property="og:image:secure_url" content="https://tabakka.com.ua/image/catalog/mirtabaka.png"/> */}
-{/* <meta property="og:url" content="https://tabakka.com.ua/tabak.html"> */}
-{/* <meta property="business:contact_data:email" content="inna_245@ukr.net"/> */}
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"/>
         </Head>  
         <body>
           <Main />

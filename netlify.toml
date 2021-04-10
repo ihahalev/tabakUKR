@@ -1,5 +1,6 @@
 [build]
   command = "npm run build"
+  commandOrigin = "config"
   publish = ".next"
 
 [[redirects]]
@@ -8,6 +9,7 @@
   status = 200
 
 [[plugins]]
+  origin = "config"
   package = "@netlify/plugin-nextjs"
 
 [context.production.environment]
